@@ -30,6 +30,9 @@ lazy val helloWorld = (project in file("practice/helloworld")).settings(commonSe
 /**
   * Practice of scalameta
   * http://scalameta.org/
+  *
+  * build.sbt reference:
+  * https://github.com/scalameta/sbt-macro-example
   */
 scalaVersion in ThisBuild := "2.11.11"
 
